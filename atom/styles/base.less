@@ -1,0 +1,132 @@
+@import "syntax-variables";
+
+atom-text-editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+atom-text-editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+atom-text-editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+atom-text-editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+atom-text-editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+atom-text-editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+atom-text-editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line {
+  background-color: rgba(62, 61, 50, 1);
+}
+
+.syntax--comment {
+  color: rgba(136, 135, 145, 1);
+}
+
+.syntax--string {
+  color: rgba(255, 193, 1, 1);
+}
+
+.syntax--constant.syntax--numeric {
+  color: rgba(96, 50, 242, 1);
+}
+
+.syntax--constant.syntax--language {
+  color: rgba(96, 50, 242, 1);
+}
+
+.syntax--constant.syntax--character, .syntax--constant.syntax--other {
+  color: rgba(96, 50, 242, 1);
+}
+
+.syntax--variable {
+}
+
+.syntax--keyword {
+  color: rgba(237, 27, 221, 1);
+}
+
+.syntax--storage {
+  color: rgba(237, 27, 221, 1);
+}
+
+.syntax--storage.syntax--type {
+  font-style: italic;
+  color: rgba(60, 182, 243, 1);
+}
+
+.syntax--entity.syntax--name.syntax--class {
+  color: rgba(53, 220, 164, 1);
+}
+
+.syntax--entity.syntax--other.syntax--inherited-class {
+  font-style: italic;
+  color: rgba(53, 220, 164, 1);
+}
+
+.syntax--entity.syntax--name.syntax--function {
+  color: rgba(53, 220, 164, 1);
+}
+
+.syntax--variable.syntax--parameter {
+  font-style: italic;
+  color: rgba(255, 223, 113, 1);
+}
+
+.syntax--entity.syntax--name.syntax--tag {
+  color: rgba(237, 27, 221, 1);
+}
+
+.syntax--entity.syntax--other.syntax--attribute-name {
+  color: rgba(53, 220, 164, 1);
+}
+
+.syntax--support.syntax--function {
+  color: rgba(60, 182, 243, 1);
+}
+
+.syntax--support.syntax--constant {
+  color: rgba(60, 182, 243, 1);
+}
+
+.syntax--support.syntax--type, .syntax--support.syntax--class {
+  font-style: italic;
+  color: rgba(60, 182, 243, 1);
+}
+
+.syntax--support.syntax--other.syntax--variable {
+}
+
+.syntax--invalid {
+  color: rgba(248, 248, 240, 1);
+  background-color: rgba(237, 27, 221, 1);
+}
+
+.syntax--invalid.syntax--deprecated {
+  color: rgba(248, 248, 240, 1);
+  background-color: rgba(96, 50, 242, 1);
+}

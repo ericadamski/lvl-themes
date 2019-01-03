@@ -1,0 +1,21 @@
+{
+    "name": "lvl-theme",
+    "displayName": "lvl",
+    "description": "Official vscode syntax theme for lvl.codes",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "lvl",
+                "uiTheme": "vs-dark",
+                "path": "./themes/lvl-color-theme.json"
+            }
+        ]
+    }
+}

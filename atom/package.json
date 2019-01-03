@@ -1,0 +1,15 @@
+{
+  "name": "lvl",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "description": "lvl.codes official atom syntax theme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "git@github.com:ericadamski/lvl-themes.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
